@@ -1,0 +1,32 @@
+.footer-logo .logo{
+   width:13vw;
+
+   /* filter: brightness(1000%); */
+}
+.footer-logo h4{
+    font-weight:bold;
+}
+.footer-logo h4:hover{
+    color: var(--textBgColor);
+}
+.footer h5{
+    text-decoration: underline;
+    text-decoration-color:var(--textBgColor); 
+    text-decoration-thickness:3px;
+}
+.footer a{
+    padding:0.5rem;
+}
+.footer a:hover{
+    color:var(--textBgColor);
+    text-decoration: underline;
+    text-decoration-color:var(--textBgColor); 
+    text-decoration-thickness:2px;
+}
+.social-links a:hover{
+    color:var(--textBgColor);
+}
+/* .background{
+     background-color: rgb(221, 219, 219);
+     
+} */

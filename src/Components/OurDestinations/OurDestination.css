@@ -1,0 +1,22 @@
+.cursive-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem; 
+    color: var(--navbarColor);
+    text-align: center; /* Optional alignment */
+  }
+  hr {
+    width: 4vw;        
+    height: 2px;       
+    border: none;      
+    background-color: white; 
+}
+/* .ourDestination{ */
+  /* background-color:#f0f0f0 */
+/* } */
+.destination{
+   width:22rem;
+}
+.bgcolor{
+  background-color: var(--textBgColor);
+  color:var(--navbarBgColor);
+}

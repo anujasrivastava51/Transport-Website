@@ -1,0 +1,36 @@
+.teamImg{
+   width:20vw;
+   height:50vh;
+   object-fit:cover;
+}
+.icon-hover {
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
+
+.icon-hover:hover {
+    
+    background-color: var(--textBgColor);
+    color: black;
+    cursor:pointer;
+}
+.card-container {
+    overflow: hidden;
+    position: relative;
+}
+.image-hover {
+    transition: transform 0.3s ease; 
+}
+
+.image-hover:hover {
+    transform: scale(1.1); 
+}
+
+@media (max-width: 576px){
+    .teamImg{
+        width:100vw;
+        height:40vh;
+        object-fit:cover;
+     }
+}

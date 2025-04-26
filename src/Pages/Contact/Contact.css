@@ -1,0 +1,79 @@
+.contact-bg-img{
+    background-image: url('../../assets/road-1.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh; 
+    position: relative;
+}
+.contact-bg-img::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+  height:100vh; 
+}
+.scroll-up-text {
+  position: relative;
+  z-index: 2; 
+}
+h4 span{
+    color: var(--navbarLinks);
+}
+.message{
+    padding: 1rem 4rem;
+}
+
+.background-image{
+  background-image: url('../../assets/Truck-6.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:40vh;
+  position:relative;
+}
+.background-image::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(7, 7, 7, 0.8); 
+ 
+}
+.text{
+  position: relative;
+  z-index: 2; 
+  color: white; 
+  padding-top:40px;
+  padding-bottom:0px; 
+  text-align: start;
+}
+
+  @media (max-width: 576px){
+  
+    .background-image{
+        height:80vh;
+        margin-top: 2rem;     
+    }
+    .text {
+        position: relative;
+        z-index: 2; 
+        color: white; 
+        padding-top: 0px;
+        padding-bottom:0px; 
+        text-align: start;
+    }
+      .text h4{
+        font-size: 1.5rem;
+    }
+      .text p{
+        font-size: 1rem;
+    }     
+}

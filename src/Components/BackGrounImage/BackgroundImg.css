@@ -1,0 +1,47 @@
+
+  .bg-image-background{
+    position: relative;
+    background-image: url('../../assets/Truck-2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:50vh;
+    z-index: 0;
+    flex-wrap: wrap;
+    margin-top:10px;
+  }
+  
+  .bg-image-background.overlay::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(58, 57, 57, 0.8); 
+  }
+  .textData {
+    position: relative;
+    z-index: 2; 
+    color: white; 
+    padding-top: 2vh; 
+    padding-bottom: 5vh; 
+    text-align: center;
+  }
+  @media (max-width: 576px) { /* Target small screens */
+    .textData {
+      position: relative;
+      z-index: 2;  
+      color: white;
+    }
+    .textData h1{
+      font-size: 1rem;
+    }
+  }
+
+  
+
+  
+  

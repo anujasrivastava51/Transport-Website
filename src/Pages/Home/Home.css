@@ -1,0 +1,54 @@
+.carousel-inner img {
+    object-fit: cover; 
+    height: 100vh; 
+  }
+  .carousel-item {
+    transition: transform 1s ease; 
+    position: relative;
+  }
+  .carousel-caption{
+    margin-bottom:12%;
+  }
+  button{
+    border:none;
+    outline:none;
+    background-color:var( --textBgColor);
+    color: var(--navbarBgColor) !important;
+    font-weight:bold;
+  }
+ 
+  .cursive-text {
+    font-family: 'Dancing Script';
+    font-size: 2rem; 
+    color: var(--navbarColor);
+  }
+  .carousel-item {
+  position: relative;
+}
+
+.carousel-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:  rgba(0, 0, 0, 0.5); ; /* Semi-transparent dark overlay */
+}
+.homeText{
+  width: 30vw;
+  margin-left:17rem;
+}
+
+
+
+  /* Responsive for small screen  */
+  @media (max-width: 576px){
+    .carousel-caption{
+      padding-bottom:8rem ;
+    }
+    .homeText {
+      width: auto; /* Default width */
+      margin-left: 0; /* Remove margin */
+    }
+  } 
+    

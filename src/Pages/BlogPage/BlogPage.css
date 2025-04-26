@@ -1,0 +1,117 @@
+.blogPage-bg {
+    background-image: var(--background-img); /* Using CSS variable for dynamic background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  .justified-text p {
+    text-align: justify;
+  }
+
+  .blogPage-button{
+     background-color:rgb(209, 207, 207);
+     color:black;
+     font-weight: 300;
+     padding:0.5rem 2rem;
+     margin-bottom:1rem;
+  }
+  .blogPage-comment-button{
+    padding: 0.5rem 2rem;
+    width:15vw;
+  }
+  .blogPageh1{
+    color:rgb(133, 131, 131);
+  }
+  .blogPage-form-bg{
+     background-color: rgb(46, 45, 45);
+  }
+  .blogpage-input-bg{
+    width:22vw;
+    background-color: rgb(46, 45, 45);
+  }
+  .blogpage-input{
+    width:20vw;
+    height:7vh;
+  }
+  .blog-author-img{
+    width:22vw;
+    height:50vh;
+    object-fit:cover;
+  }
+  .about-author{
+    width:22vw;
+  }
+  .categories{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+  }
+  .categories .category{
+    display:flex;
+    justify-content: space-between;
+  }
+  .bloghr{
+    width:22vw;
+  }
+ 
+
+  @media (max-width: 576px){
+    body,html{
+      overflow-x: hidden;
+    }
+    .blogPage-comment-button{
+      padding: 0.5rem;
+      width:52vw;
+    }
+   .comment{
+     width:65vw;
+   }
+   .blogpage-input-bg{
+    width:70vw;
+    background-color: rgb(248, 244, 244);
+  }
+  .blogpage-input{
+    width:63vw;
+    height:7vh;
+    padding:0.5rem;
+    font-size:13px;
+  }
+  .blog-author-img{
+    width:70vw;
+    height:50vh;
+    object-fit:cover;
+  }
+  .about-author{
+    width:70vw;
+  }
+ 
+  hr{
+    width:22vw;
+  }
+
+  .categories{
+    display:flex;
+    justify-content: space-between;
+    
+  }
+  .categories .category{
+    display:flex;
+    justify-content:space-between;
+    margin:0 5px;
+  }
+  .category .count{
+    margin-right:6rem;
+  }
+  hr{
+    width:70vw;
+  }
+  }
+
+  

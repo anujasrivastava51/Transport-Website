@@ -1,0 +1,69 @@
+.blog-bg-img{
+    background-image: url('../../assets/road-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh; 
+    
+}
+.blog-bg-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+  height:100vh;  
+}
+
+.scroll-up-text {
+  position: relative;
+  z-index: 2; 
+}
+.card-img-top{
+    height:45vh;
+}
+.image-container {
+    position: relative; /* Keeps the child image positioned within the container */
+    overflow: hidden;   /* Prevents the image from spilling out of the card */
+    cursor: pointer;
+  }
+  
+  /* Zoom effect for the image */
+  .zoom-img {
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+    
+  }
+  
+  /* Apply zoom effect on hover */
+  .zoom-img:hover {
+    transform: scale(1.1); /* Slight zoom effect (10% larger) */
+  }
+  
+  /* Optional: card styling to make sure it looks neat */
+  .card {
+    position: relative;
+    width: 100%;
+  }
+.pagebtn{
+    background-color: var(--textBgColor) !important;
+    border:none;
+    color:black !important;
+}
+.pagebutton{
+    color:black !important;
+}
+span{
+    color:var(--navbarBgColor);
+    font-weight: 500;
+}
+.blogText{
+  width: 30vw;
+}
+@media (max-width: 576px){
+.blogText{
+  width:80vw;
+} 
+}

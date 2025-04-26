@@ -1,0 +1,48 @@
+hr {
+    width: 4vw;        
+    height: 2px;       
+    border: none;      
+    background-color: black; 
+    margin:1rem 0; 
+}
+p{
+    color:var(--paraText );
+}
+button{
+   padding:1rem 3rem;
+}
+.cursive{
+    font-family: 'Dancing Script'; 
+    font-size: 2rem;
+}
+
+/* White overlay on the image */
+.image-overlay {
+    position: relative;
+  }
+  
+  .image-overlay img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .image-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white; /* White overlay */
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out; /* Smooth fade-out effect */
+    z-index: 1;
+    border-radius: 8px; /* Match the image radius */
+  }
+  
+  .image-overlay.show-overlay::after {
+    opacity: 0; /* Remove overlay */
+    pointer-events: none;
+  }
+  

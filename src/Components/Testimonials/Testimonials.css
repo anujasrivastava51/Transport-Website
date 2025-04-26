@@ -1,0 +1,29 @@
+.testimonial-box{
+    width:25vw;
+    height: 30vh;
+}
+.image-container {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.circular-image {
+    width:5vw; /* Adjust to your desired size */
+    height: 10vh; /* Same as width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #fff; /* Optional: Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+    object-fit: cover; /* Ensures the image scales without distortion */
+}
+@media (max-width: 576px){
+    .circular-image {
+    width:20vw; /* Adjust to your desired size */
+    height: 10vh; /* Same as width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #fff; /* Optional: Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+    object-fit: cover; /* Ensures the image scales without distortion */
+}
+}

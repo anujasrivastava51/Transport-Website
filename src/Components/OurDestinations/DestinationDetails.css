@@ -1,0 +1,26 @@
+.destination-details{
+    margin-top: 10%;
+    max-height:80vh;
+}
+.destination-details img{
+    width:40vw;
+    height:70vh;
+}
+.destinationsBtn{
+    background-color:rgb(37, 37, 37);
+    color:#ffff !important;
+}  
+
+
+@media (max-width: 576px) {
+    .destination-details img{
+       margin-top:18%;
+       width:92vw; 
+    }
+    .destinationsBtn{
+        width: 200px;
+        padding: 12px;
+        background-color:rgb(37, 37, 37);
+        color:#ffff !important;
+    }  
+}
